@@ -20,7 +20,7 @@ function App() {
           className="w-full bg-red-600 hover:!bg-red-700 text-white font-medium py-2.5 rounded-lg focus:outline-2 focus:ring-red-600"
         >
           <div className="flex items-center justify-center gap-2 w-full">
-            <FaGoogle className="text-white size-5" />
+            <FaGoogle className="text-white size-5 mr-1 ml-3" />
             <span>Sign up with Google</span>
           </div>
         </Button>
@@ -34,7 +34,7 @@ function App() {
           className="w-full bg-blue-600 hover:!bg-blue-700 text-white font-medium py-2.5 rounded-lg focus:ring-2 focus:ring-blue-600"
         >
           <div className="flex items-center justify-center gap-2 w-full">
-            <FaFacebook className="text-white size-5 " />
+            <FaFacebook className="text-white size-5 mr-1 ml-7" />
             <span>Sign up with Facebook</span>
           </div>
         </Button>
