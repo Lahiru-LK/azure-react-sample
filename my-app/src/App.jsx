@@ -15,17 +15,26 @@ function App() {
         </p>
 
         {/* Google Button */}
-        <Button color="light" className="w-full mb-3 border border-gray-300 bg-red-700 text-white hover:bg-red-800">
-          <div className="flex items-center justify-center gap-2 w-full mr-3">
-            <FaGoogle className="text-white  size-5 mr-1 ml-3" />
+        <Button
+          custom={true}
+          className="w-full bg-red-600 hover:!bg-red-700 text-white font-medium py-2.5 rounded-lg focus:outline-2 focus:ring-red-600"
+        >
+          <div className="flex items-center justify-center gap-2 w-full">
+            <FaGoogle className="text-white size-5" />
             <span>Sign up with Google</span>
           </div>
         </Button>
 
+
+
+
         {/* Facebook Button */}
-        <Button className="w-full mb-4 bg-blue-600 text-white hover:bg-blue-700">
+        <Button
+          custom={true}
+          className="w-full bg-blue-600 hover:!bg-blue-700 text-white font-medium py-2.5 rounded-lg focus:ring-2 focus:ring-blue-600"
+        >
           <div className="flex items-center justify-center gap-2 w-full">
-            <FaFacebook className="text-white size-5  mr-1 ml-3" />
+            <FaFacebook className="text-white size-5 " />
             <span>Sign up with Facebook</span>
           </div>
         </Button>
@@ -45,7 +54,7 @@ function App() {
 
 
         {/* Sign up with email */}
-        <button className="w-full bg-green-500 hover:bg-blue-500 text-white font-medium py-2.5 rounded-lg transition-colors">
+        <button className="w-full bg-green-600 hover:bg-green-700 text-white font-medium py-3 rounded-lg transition-colors">
           Sign up with email
         </button>
 
